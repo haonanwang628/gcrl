@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: any-step-mher-ogbench
+Version: 0.1.0
+Summary: Offline goal-conditioned future prediction: phases 1-4 only
+Requires-Python: >=3.9
+Requires-Dist: numpy<2,>=1.24
+Requires-Dist: torch<3,>=2.4
+Requires-Dist: PyYAML>=6
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: ogbench==1.2.1
+Requires-Dist: tqdm>=4
+Provides-Extra: test
+Requires-Dist: pytest<9,>=8; extra == "test"

@@ -1,0 +1,2 @@
+[console_scripts]
+asm = any_step_mher_ogbench.cli:main

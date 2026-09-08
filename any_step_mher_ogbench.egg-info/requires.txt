@@ -1,0 +1,9 @@
+numpy<2,>=1.24
+torch<3,>=2.4
+PyYAML>=6
+matplotlib>=3.7
+ogbench==1.2.1
+tqdm>=4
+
+[test]
+pytest<9,>=8
