@@ -1,0 +1,3 @@
+dataset:
+  env_name: pointmaze-medium-v0
+  dataset_type: navigate

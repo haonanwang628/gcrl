@@ -1,0 +1,22 @@
+dataset:
+  validation_samples_per_horizon: 8
+representation:
+  latent_dim: 4
+  hidden_dims: [16, 16]
+  batch_size: 16
+  encoder_steps: 3
+  decoder_steps: 3
+  validation_samples: 32
+  log_every: 1
+future_model:
+  width: 16
+  depth: 1
+  embedding_dim: 4
+  batch_size: 16
+  steps: 3
+  log_every: 1
+evaluation:
+  batch_size: 16
+  timing_batch_size: 8
+  warmup: 1
+  timing_repeats: 2

@@ -1,0 +1,36 @@
+seed: 0
+threads: 1
+horizons: [1, 5, 10, 20]
+dataset:
+  env_name: pointmaze-medium-v0
+  dataset_type: navigate
+  dataset_dir: ~/.ogbench/data
+  validation_samples_per_horizon: 1024
+representation:
+  latent_dim: 32
+  hidden_dims: [512, 512, 512]
+  lr: 0.0003
+  discount: 0.99
+  expectile: 0.95
+  smoothing_coef: 0.01
+  tau: 0.005
+  p_current: 0.0
+  p_future: 0.625
+  batch_size: 256
+  encoder_steps: 100000
+  decoder_steps: 50000
+  validation_samples: 2048
+  log_every: 1000
+future_model:
+  width: 256
+  depth: 3
+  embedding_dim: 16
+  lr: 0.0003
+  batch_size: 256
+  steps: 100000
+  log_every: 1000
+evaluation:
+  batch_size: 256
+  timing_batch_size: 128
+  warmup: 5
+  timing_repeats: 20
