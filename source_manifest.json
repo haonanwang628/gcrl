@@ -1,0 +1,42 @@
+﻿[
+    {
+        "source":  "TempDATA/src/special_networks.py",
+        "sha256":  "d0ad6a40ebfc7e5218c89d4260eea00787b5f635de1bd528c45a0c23b263197e"
+    },
+    {
+        "source":  "TempDATA/src/agents/TempDATA.py",
+        "sha256":  "4bcea4812bd3f1f2fd8e0f74836546685f64fe12ff77845d573c23c5fac7d3aa"
+    },
+    {
+        "source":  "TempDATA/src/dataset_utils.py",
+        "sha256":  "aefb0e4a9d6101c1650ca77be33ad63cbc99c60d5ac539946b36bd26f6a27e2a"
+    },
+    {
+        "source":  "TempDATA/jaxrl_m/networks.py",
+        "sha256":  "e5029a8b8b69fa0d8d5fd7e4aaf6ab289359e253a4a42469613b830a29ee4b7a"
+    },
+    {
+        "source":  "TempDATA/jaxrl_m/common.py",
+        "sha256":  "09a8a017c6372b6157aa107c790f78923197f1f47c731b5dedc22da1d1b53748"
+    },
+    {
+        "source":  "TempDATA/How_to_pretrain_representation.ipynb",
+        "sha256":  "f72471e7a2f216289ec9abc25808b98e994e7dfd52d790f2c0a3e8356adf4254"
+    },
+    {
+        "source":  "ADMPO/dynamics/arm.py",
+        "sha256":  "cfbe6e34fe7d6d0d67219cdebedbadd3322c873b7d4c164632393fe465d195ed"
+    },
+    {
+        "source":  "ogbench==1.2.1/utils.py",
+        "sha256":  "f503a3a0497f91ce02958abae5770f3e08c9d6a3a740687c828c996fedb24e9b"
+    },
+    {
+        "source":  "ogbench==1.2.1/locomaze/point.py",
+        "sha256":  "eb9125a4b0f0cbeeb4a6a5a1e45bfd8b938a8bad9352a3e5d72dc2ac8f1987f6"
+    },
+    {
+        "source":  "ogbench==1.2.1/locomaze/ant.py",
+        "sha256":  "ebe45ff724ecf5e35e643e339cd7c1d6315e49f8f0f8f96d516fd1130fd1e363"
+    }
+]

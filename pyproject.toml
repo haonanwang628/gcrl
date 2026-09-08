@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "any-step-mher-ogbench"
+version = "0.1.0"
+description = "Offline goal-conditioned future prediction: phases 1-4 only"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24,<2", "torch>=2.4,<3", "PyYAML>=6", "matplotlib>=3.7", "ogbench==1.2.1", "tqdm>=4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+asm = "any_step_mher_ogbench.cli:main"
+
+[tool.setuptools]
+packages = ["any_step_mher_ogbench", "any_step_mher_ogbench.datasets", "any_step_mher_ogbench.representations", "any_step_mher_ogbench.future_models", "any_step_mher_ogbench.evaluation"]
+package-dir = {"any_step_mher_ogbench" = "."}
+
+[tool.setuptools.package-data]
+any_step_mher_ogbench = ["configs/*.yaml", "configs/datasets/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
